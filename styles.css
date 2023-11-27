@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+
+.addlist {
+    border: 2px solid;
+    margin: auto;
+    width: 20%;
+    padding: 4px;
+    background-color:green;
+  }
+
+  .addedtask {
+    height: auto;
+  }
+ul{
+    color: green;
+}  
