@@ -1,18 +1,104 @@
-body{
-    background-color: aquamarine;
-}
-
-.addlist {
-    border: 2px solid;
-    margin: auto;
-    width: 20%;
-    padding: 4px;
-    background-color:green;
+/* Reset some default styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
   }
-
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4285f4;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .addlist {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #taskitem {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .addtask {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addtask:hover {
+    background-color: #3367d6;
+  }
+  
   .addedtask {
-    height: auto;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
   }
-ul{
-    color: green;
-}  
+  
+  h2 {
+    color: #4285f4;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3367d6;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  
+  
